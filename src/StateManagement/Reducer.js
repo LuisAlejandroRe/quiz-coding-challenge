@@ -1,6 +1,6 @@
 export const initialState = {
-  initialSettings: null,
-  questions: null
+  questions: null,
+  results: []
 };
 
 const reducer = (state, action) => {
@@ -11,11 +11,11 @@ const reducer = (state, action) => {
         questions: action.questions,
       };
 
-    case "LOGOUT":
-      localStorage.removeItem("user");
+    case "SET_RESULTS":
+      const newResultsArray = [...state.results, action.result] 
       return {
         ...state,
-        user: null,
+        results: newResultsArray,
       };
 
     default:

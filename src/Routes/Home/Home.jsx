@@ -31,7 +31,7 @@ function Home() {
 
     const categoryURL = formData.category === 'Any' ? '' : `&category=${formData.category}`;
     const difficultyURL = formData.difficulty === 'Any Difficulty' ? '' : `&difficulty=${formData.difficulty}`;
-    const URL = `https://opentdb.com/api.php?amount=11${categoryURL}${difficultyURL}&type=boolean`;
+    const URL = `https://opentdb.com/api.php?amount=10${categoryURL}${difficultyURL}&type=boolean`;
     console.log(URL)
 
     axios.get(URL)
