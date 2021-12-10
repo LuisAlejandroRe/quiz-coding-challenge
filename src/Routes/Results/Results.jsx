@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useStateValue } from '../../StateManagement/StateProvider';
 import { useHistory } from 'react-router-dom';
+import './Results.css';
 
 function Results() {
   const [score, setScore] = useState('0/10')
@@ -21,14 +22,14 @@ function Results() {
   }, [results, history])
 
   return (
-    <div>
+    <div className='results'>
       <h1>Results</h1>
       <h2>You scored</h2>
       <h2>{score}</h2>
-      <ul>
+      <ul className='results__list'>
         {results &&
           results.map((result) => (
-            <li key={result.question}>{result.question}</li>
+            <li className={result.correct ? 'results__listCorrect results__listItem' : 'results__listItem'} key={result.question}>{result.question}</li>
           ))
         }
       </ul>    

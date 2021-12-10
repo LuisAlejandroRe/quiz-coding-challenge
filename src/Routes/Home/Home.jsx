@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import axios from 'axios';
 import { useStateValue } from "../../StateManagement/StateProvider"
+import './Home.css';
 
 function Home() {
   const [categories, setCategories] = useState(null);
@@ -32,7 +33,6 @@ function Home() {
     const categoryURL = formData.category === 'Any' ? '' : `&category=${formData.category}`;
     const difficultyURL = formData.difficulty === 'Any Difficulty' ? '' : `&difficulty=${formData.difficulty}`;
     const URL = `https://opentdb.com/api.php?amount=10${categoryURL}${difficultyURL}&type=boolean`;
-    console.log(URL)
 
     axios.get(URL)
       .then( res => {
@@ -53,15 +53,15 @@ function Home() {
   }
 
   return (
-    <div>
+    <div className='home'>
       <h1>Home</h1>
-      <form>
+      <form className='home__form'>
         <label>Select Category:</label>
         <select defaultValue={'Any'} name="category" onChange={ e => setFormData(prevData => ({...prevData, category: e.target.value}))}>
           <option value='Any' >Any Category</option>
           {categories && 
             categories.map(category => (
-              <option value={category.id}>{category.name}</option>
+              <option key={category.id} value={category.id}>{category.name}</option>
             ))
           }
         </select>

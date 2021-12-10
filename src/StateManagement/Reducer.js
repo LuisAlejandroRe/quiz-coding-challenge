@@ -12,10 +12,16 @@ const reducer = (state, action) => {
       };
 
     case "SET_RESULTS":
-      const newResultsArray = [...state.results, action.result] 
+      const newResultsArray = [...state.results, action.result]; 
       return {
         ...state,
         results: newResultsArray,
+      };
+
+    case "RESET": 
+      return {
+        questions: null,
+        results: [],
       };
 
     default:

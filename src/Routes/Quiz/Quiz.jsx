@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useStateValue } from '../../StateManagement/StateProvider';
-
+import './Quiz.css';
 
 function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(null);
@@ -18,7 +18,7 @@ function Quiz() {
     question.index = 0
     setCurrentQuestion(question);
 
-  }, [questions])
+  }, [questions, history])
 
   const handleSubmit = (e, answer) => {
     e.preventDefault();
@@ -46,14 +46,16 @@ function Quiz() {
   }
 
   return (
-    <div>
-      <h1>Quiz</h1>
+    <div className='quiz'>
       {currentQuestion &&
-        <form>
+        <form className='quiz__form'>
           <h1>{currentQuestion.category}</h1>
-          <p>{currentQuestion.question}</p>
-          <button type='submit' onClick={(e) => handleSubmit(e, 'True')}>True</button>
-          <button type='submit' onClick={(e) => handleSubmit(e, 'False')}>False</button>
+          <p className='quiz__question'>{currentQuestion.question}</p>
+          <p>{currentQuestion.index + 1 + '/10'}</p>
+          <div className="quiz__formButtons">
+            <button type='submit' onClick={(e) => handleSubmit(e, 'True')}>True</button>
+            <button type='submit' onClick={(e) => handleSubmit(e, 'False')}>False</button>
+          </div>
         </form>
       }
     </div>

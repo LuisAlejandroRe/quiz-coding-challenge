@@ -1,0 +1,39 @@
+.results {
+  flex: 0.7;
+  overflow-y: scroll;
+  font-family: "Georama", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.results::-webkit-scrollbar {
+  width: 10px;
+  background-color: none;
+}
+
+.results::-webkit-scrollbar-thumb {
+  background: rgb(11, 93, 106);
+  background: linear-gradient(
+    344deg,
+    rgba(11, 93, 106, 1) 0%,
+    rgba(92, 190, 231, 0.7) 100%
+  );
+  border-radius: 2px;
+}
+
+.results__listItem {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  background-color: rgba(162, 52, 52, 0.7);
+  border-radius: 5px;
+  border: 2px solid #a23434;
+}
+
+.results__listCorrect {
+  background-color: rgba(119, 162, 52, 0.7);
+  border: 2px solid #77a234;
+}

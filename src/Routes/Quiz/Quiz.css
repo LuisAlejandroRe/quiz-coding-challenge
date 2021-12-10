@@ -1,0 +1,59 @@
+.quiz {
+  flex: 0.7;
+}
+
+.quiz__form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Georama", sans-serif;
+}
+
+.quiz__question {
+  color: black;
+  font-family: "Georama", sans-serif;
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  border: 2px transparent;
+}
+
+.quiz__formButtons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.quiz__formButtons button {
+  cursor: pointer;
+  background: rgb(77,88,66);
+background: linear-gradient(85deg, rgba(77,88,66,1) 0%, rgba(119,162,52,1) 61%);
+  font-size: 25px;
+  font-family: "Courgette", cursive;
+  color: #fff;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.quiz__formButtons button:nth-child(2) {
+  background: rgb(83,65,65);
+  background: linear-gradient(85deg, rgba(83,65,65,1) 0%, rgba(162,52,52,1) 61%);
+}
+
+.quiz__formButtons button:nth-child(1):hover {
+  background: #77a234;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.5);
+}
+
+.quiz__formButtons button:nth-child(2):hover {
+  background: #a23434;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.5);
+}
