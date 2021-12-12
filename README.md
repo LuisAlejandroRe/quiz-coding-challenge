@@ -2,7 +2,9 @@
 <br />
 <p align="center">
   
+  <p align="center">
     <img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/Quiz%2FQuizbanner.PNG?alt=media&token=73c81994-a6ac-4167-9956-c0cf9a811623" alt="Logo" >
+  </p>
 
   <h3 align="center">QUIZ CODING CHALLENGE</h3>
 
