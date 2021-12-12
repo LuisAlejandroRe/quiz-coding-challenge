@@ -2,9 +2,7 @@
 <br />
 <p align="center">
   
-  <a href="https://react-chat-67a93.web.app/" target="blank">
-    <img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/logo192.jpg?alt=media&token=59f1f409-290d-4ab7-bbdc-c5a4acdd680f" alt="Logo" >
-  </a>
+    <img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/Quiz%2FQuizbanner.PNG?alt=media&token=73c81994-a6ac-4167-9956-c0cf9a811623" alt="Logo" >
 
   <h3 align="center">QUIZ CODING CHALLENGE</h3>
 
@@ -54,7 +52,7 @@ npm start
 In home you can choose the questions category and difficulty, the number of questions will always be 10 and type true or false, if there are not enough questions for the request, it will be warned to try again.
 
 <p align="center">
-    <img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/LoginReactChat.jpg?alt=media&token=0687cd74-98f0-483e-ae99-c5e40fe7ecce" alt="ReactChatLogin" >
+    <img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/Quiz%2FHomeQuiz.PNG?alt=media&token=7c847258-b859-481b-8e0e-b5e8623928ab" alt="Quiz Home" >
 
 </p>
 
@@ -63,7 +61,7 @@ In home you can choose the questions category and difficulty, the number of ques
 10 questions true or false, of chosen category and difficulty
 
 <p align="center">
-    <img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/HomeReactChat.jpg?alt=media&token=a0f0daaa-a35f-4149-b948-60adea9becf4" alt="ReactChatHome" >
+    <img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/Quiz%2FQuizQuiz.PNG?alt=media&token=416c4e2c-f464-41e2-b0ac-a5c564313f5a" alt="Quiz" >
 
 </p>
 
@@ -72,18 +70,18 @@ In home you can choose the questions category and difficulty, the number of ques
 Score will be displayed along with the correct answers in green and the incorrect answers in red
 
 <p align="center">
-    <img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/ChatReactChat.jpg?alt=media&token=e2f49982-f5a5-4846-8d56-8bbd7c0ab9e6" alt="ChatReactChat" >
+    <img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/Quiz%2FResultsQuiz.PNG?alt=media&token=c41bc134-023a-440b-b785-f26520912f7f" alt="Quiz Results" >
 
 </p>
 
 #### Page is fully responsive
 
 <p align="center">
-    <img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/LoginMobile.png?alt=media&token=7da9ed3b-3a0a-48bf-8687-d5974fdb15ac" alt="ReactChatLoginMobile" >
+    <img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/Quiz%2FHomeQuizMobile.png?alt=media&token=a8b03776-6faf-44ff-b4a1-688daa49ef28" alt="QuizHomeMobile" >
 	<br />
-	<img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/HomeMobile.png?alt=media&token=3dea9a73-8253-4fc6-add9-036d001b12e2" alt="ReactChatHomeMobile" >
+	<img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/Quiz%2FQuizQuizMobile.png?alt=media&token=7a872172-1d3f-4349-a6c8-78f9d9b5aa2e" alt="QuizMobile" >
 	<br />
-	<img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/ChatMobile.png?alt=media&token=bd506427-b84c-4f95-9722-55ebf8125598" alt="ReactChatMobile" >
+	<img src="https://firebasestorage.googleapis.com/v0/b/react-chat-67a93.appspot.com/o/Quiz%2FResultsQuizMobile.png?alt=media&token=73662dbf-eddb-45b6-b717-6443d6420c20" alt="ResultsMobile" >
 
 </p>
 
